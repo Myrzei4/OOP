@@ -6,19 +6,18 @@ public interface ISettingsService
 {
     #region Interface Members
 
-    /// <summary>
-    /// Read settings.
-    /// </summary>
-    /// <param name="jsonPath">Json path</param>
-    /// <returns></returns>
-    ISettings? Read(string jsonPath);
-
+    void AddSetting(string newScreenName, string backgroundColor = "black", string foregroundColor = "white"); // Method of adding Settings
     /// <summary>
     /// Write settings.
     /// </summary>
-    /// <param name="settings">Settings to written</param>
-    /// <param name="jsonPath">Json path</param>
-    void Write(ISettings settings, string jsonPath);
+    /// <param name="fileName">Json path</param>
+    void Write(string fileName);
+   
+    /// <summary>
+    /// Read settings.
+    /// </summary>
+    /// <param name="fileName">Json path</param>
+    ISettings? Read(string fileName);
 
     #endregion // Interface Members
 }

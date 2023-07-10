@@ -1,4 +1,6 @@
-﻿namespace SampleHierarchies.Interfaces.Data;
+﻿using System.Drawing;
+
+namespace SampleHierarchies.Interfaces.Data;
 
 /// <summary>
 /// Settings interface.
@@ -6,11 +8,12 @@
 public interface ISettings
 {
     #region Interface Members
-
     /// <summary>
-    /// Version of settings.
+    /// Color settings.
     /// </summary>
-    string Version { get; set; }
+ 
+    string BackgroundColor { get; set; } // Color of background
+    string ForegroundColor { get; set; } // Color of text
 
     #endregion // Interface Members
 }

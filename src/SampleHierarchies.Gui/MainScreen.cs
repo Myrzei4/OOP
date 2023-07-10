@@ -14,7 +14,7 @@ public sealed class MainScreen : Screen
     /// Data service.
     /// </summary>
     private IDataService _dataService;
-
+    
     /// <summary>
     /// Animals screen.
     /// </summary>
@@ -32,6 +32,7 @@ public sealed class MainScreen : Screen
         _dataService = dataService;
         _animalsScreen = animalsScreen;
     }
+    
 
     #endregion Properties And Ctor
 

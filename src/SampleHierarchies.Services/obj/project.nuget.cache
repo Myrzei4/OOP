@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cQsTLbe8MRjPEThcg6qlQYX8OJAlzFZ4ThO7pii1GEGLxxG5FWFgRhULebcg2RnTlbAlUOFQP2UcrjK1v7StSA==",
+  "dgSpecHash": "6lYMY+90rWF1y/cmDfpUXTEuPNvBdTgoO2RCAT8AvkLwvXfZWai9/agaFFzzCg0sDkq7stGf2r0rUKP+jo/yig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Services\\SampleHierarchies.Services.csproj",
+  "projectFilePath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Services\\SampleHierarchies.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Мурзеич\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

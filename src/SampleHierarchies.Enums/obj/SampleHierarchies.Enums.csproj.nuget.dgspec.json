@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj": {}
+    "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj": {
+    "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj",
+        "projectUniqueName": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj",
         "projectName": "SampleHierarchies.Enums",
-        "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj",
+        "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj",
         "packagesPath": "C:\\Users\\Мурзеич\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Мурзеич\\Source\\Repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Enums\\obj\\",
+        "outputPath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Enums\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visualka\\Shared\\NuGetPackages"

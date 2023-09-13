@@ -1,0 +1,39 @@
+{
+  "LineEntries": [
+    {
+      "BackgroundColor": 5,
+      "ForegroundColor": 15,
+      "Text": "Your available choices are: "
+    },
+    {
+      "BackgroundColor": 5,
+      "ForegroundColor": 15,
+      "Text": "0. Exit"
+    },
+    {
+      "BackgroundColor": 5,
+      "ForegroundColor": 15,
+      "Text": "1. Animals"
+    },
+    {
+      "BackgroundColor": 5,
+      "ForegroundColor": 15,
+      "Text": "2. Settings"
+    },
+    {
+      "BackgroundColor": 5,
+      "ForegroundColor": 15,
+      "Text": "Please enter your choice: " //5
+    },
+    {
+      "BackgroundColor": 5,
+      "ForegroundColor": 15,
+      "Text": "Goodbye."
+    },
+    {
+      "BackgroundColor": 5,
+      "ForegroundColor": 12,
+      "Text": "Invalid choice. Try again." ///7
+    }
+  ]
+}

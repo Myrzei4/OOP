@@ -7,4 +7,7 @@ public enum MammalsScreenChoices
 {
     Exit = 0,
     Dogs = 1,
+    PolarBears = 2,
+    AfricanElephants = 3,
+    GrizzlyBears = 4,
 }

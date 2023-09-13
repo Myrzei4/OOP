@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Reh36J33Av7H/Wi+XvsJI1subNKCG38nsBYuTe0nekHVVN5FLLhyXXqDjfWtktmbWe4erFUFHQ+qMCDKGuWfw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Мурзеич\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  SampleHierarchies.Services.Tests -> SampleHierarchies.Services -> SampleHierarchies.Services.Tests.",
+      "libraryId": "SampleHierarchies.Services.Tests",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

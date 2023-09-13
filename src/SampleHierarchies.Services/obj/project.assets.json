@@ -130,11 +130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Services\\SampleHierarchies.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Services\\SampleHierarchies.Services.csproj",
       "projectName": "SampleHierarchies.Services",
-      "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Services\\SampleHierarchies.Services.csproj",
+      "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Services\\SampleHierarchies.Services.csproj",
       "packagesPath": "C:\\Users\\Мурзеич\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Мурзеич\\Source\\Repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Services\\obj\\",
+      "outputPath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visualka\\Shared\\NuGetPackages"
@@ -155,14 +155,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Data\\SampleHierarchies.Data.csproj": {
-              "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Data\\SampleHierarchies.Data.csproj"
+            "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Data\\SampleHierarchies.Data.csproj": {
+              "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Data\\SampleHierarchies.Data.csproj"
             },
-            "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj": {
-              "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj"
+            "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj": {
+              "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj"
             },
-            "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Interfaces\\SampleHierarchies.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Interfaces\\SampleHierarchies.Interfaces.csproj"
+            "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Interfaces\\SampleHierarchies.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Мурзеич\\source\\repos\\OOP\\src\\SampleHierarchies.Interfaces\\SampleHierarchies.Interfaces.csproj"
             }
           }
         }

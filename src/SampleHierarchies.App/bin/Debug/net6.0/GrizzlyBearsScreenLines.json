@@ -1,0 +1,124 @@
+{
+  "LineEntries": [
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "Your available choices are: "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "0. Exit"
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "1. List all grizzly bears"
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "2. Create a new grizzly bear"
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "3. Delete existing grizzly bear" //5
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "4. Modify existing grizzly bear"
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "Please enter your choice: "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "Going back to parent menu."
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 12,
+      "Text": "Invalid choice. Try again." ///7
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "Here's a list of grizzly bears: " //5
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 12,
+      "Text": "The list of grizzly bears is empty." ///11
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "What is the name of the grizzly bear you want to delete? "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 12,
+      "Text": "Grizzly bear not found." ///13
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "What is the name of the grizzly bears you want to edit? "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "Grizzly bear after edit: " //15
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 12,
+      "Text": "Grizzly bear not found." ///16
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 12,
+      "Text": "Invalid input. Try again." ///17
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "What name of the grizzly bear? "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "What is the grizzly bear's age? "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "How long is the Grizzly Bear's hibernation? (im month) " //20
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "What is the Grizzly Bear's size? (in meters) "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "What is the Grizzly Bear's diet? "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "How Grizzly Bear use his claws? "
+    },
+    {
+      "BackgroundColor": 7,
+      "ForegroundColor": 5,
+      "Text": "What is the Grizzly Bear's sense of smell? "
+    }
+  ]
+}

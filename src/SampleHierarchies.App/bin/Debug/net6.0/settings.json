@@ -1,0 +1,38 @@
+{
+  "Default": {
+    "BackgroundColor": "Black",
+    "ForegroundColor": "White"
+  },
+  "AnimalsScreen": {
+    "BackgroundColor": "White",
+    "ForegroundColor": "Blue"
+  },
+  "DogsScreen": {
+    "BackgroundColor": "DarkRed",
+    "ForegroundColor": "Yellow"
+  },
+  "MainScreen": {
+    "BackgroundColor": "Green",
+    "ForegroundColor": "Blue"
+  },
+  "MammalsScreen": {
+    "BackgroundColor": "Blue",
+    "ForegroundColor": "Magenta"
+  },
+  "AfricanElephantsScreen": {
+    "BackgroundColor": "Black",
+    "ForegroundColor": "Blue"
+  },
+  "PolarBearsScreen": {
+    "BackgroundColor": "Cyan",
+    "ForegroundColor": "Magenta"
+  },
+  "GrizzlyBearsScreen": {
+    "BackgroundColor": "Green",
+    "ForegroundColor": "Blue"
+  },
+  "SettingsScreen": {
+    "BackgroundColor": "Blue",
+    "ForegroundColor": "Black"
+  }
+}

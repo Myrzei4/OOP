@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "SampleHierarchies.Gui/1.0.0": {
         "dependencies": {
+          "SampleHierarchies.Enums": "1.0.0",
           "SampleHierarchies.Interfaces": "1.0.0",
           "SampleHierarchies.Services": "1.0.0"
         },

@@ -10,3 +10,15 @@ C:\Users\Мурзеич\Source\Repos\ProgrammingObjectOriented0\src\SampleHierar
 C:\Users\Мурзеич\Source\Repos\ProgrammingObjectOriented0\src\SampleHierarchies.Helpers\obj\Debug\net6.0\refint\SampleHierarchies.Helpers.dll
 C:\Users\Мурзеич\Source\Repos\ProgrammingObjectOriented0\src\SampleHierarchies.Helpers\obj\Debug\net6.0\SampleHierarchies.Helpers.pdb
 C:\Users\Мурзеич\Source\Repos\ProgrammingObjectOriented0\src\SampleHierarchies.Helpers\obj\Debug\net6.0\ref\SampleHierarchies.Helpers.dll
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\bin\Debug\net6.0\SampleHierarchies.Helpers.deps.json
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\bin\Debug\net6.0\SampleHierarchies.Helpers.dll
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\bin\Debug\net6.0\SampleHierarchies.Helpers.pdb
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\SampleHierarchies.Helpers.csproj.AssemblyReference.cache
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\SampleHierarchies.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\SampleHierarchies.Helpers.AssemblyInfoInputs.cache
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\SampleHierarchies.Helpers.AssemblyInfo.cs
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\SampleHierarchies.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\SampleHierarchies.Helpers.dll
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\refint\SampleHierarchies.Helpers.dll
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\SampleHierarchies.Helpers.pdb
+C:\Users\Мурзеич\source\repos\OOP\src\SampleHierarchies.Helpers\obj\Debug\net6.0\ref\SampleHierarchies.Helpers.dll

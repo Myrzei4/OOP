@@ -1,0 +1,124 @@
+{
+  "LineEntries": [
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "Your available choices are: "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "0. Exit"
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "1. List all polar bears"
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "2. Create a new polar bear"
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "3. Delete existing polar bear" //5
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "4. Modify existing polar bear"
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "Please enter your choice: "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "Going back to parent menu."
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 12,
+      "Text": "Invalid choice. Try again." ///9
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "Here's a list of Polar Bears: " //10
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 12,
+      "Text": "The list of polar bears is empty." ///11
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "What is the name of the Polar Bear you want to delete? "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 12,
+      "Text": "Polar Bear not found." ///13
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "What is the name of the polar bears you want to edit? "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "Polar Bear after edit: " //15
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 12,
+      "Text": "Polar Bear not found." ///16
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 12,
+      "Text": "Invalid input. Try again." ///17
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "What name of the Polar Bear? "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "What is the Polar Bear's age? "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "What fur coat does the Polar Bear have?  " //20
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "What is the Polar Bear's paws size? (in cm) "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "What is the Polar Bear's diet? "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "Does the Polar Bear semi-aquatic? "
+    },
+    {
+      "BackgroundColor": 2,
+      "ForegroundColor": 13,
+      "Text": "What is the Polar Bear's sense of smell? "
+    }
+  ]
+}

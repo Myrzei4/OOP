@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Мурзеич\\Source\\Repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj",
+      "projectUniqueName": "C:\\Users\\Мурзеич\\Source\\Repos\\OOP\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj",
       "projectName": "SampleHierarchies.Enums",
-      "projectPath": "C:\\Users\\Мурзеич\\Source\\Repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj",
+      "projectPath": "C:\\Users\\Мурзеич\\Source\\Repos\\OOP\\src\\SampleHierarchies.Enums\\SampleHierarchies.Enums.csproj",
       "packagesPath": "C:\\Users\\Мурзеич\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Мурзеич\\Source\\Repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Enums\\obj\\",
+      "outputPath": "C:\\Users\\Мурзеич\\Source\\Repos\\OOP\\src\\SampleHierarchies.Enums\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visualka\\Shared\\NuGetPackages"

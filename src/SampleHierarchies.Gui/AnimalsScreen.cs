@@ -1,5 +1,7 @@
-﻿using SampleHierarchies.Enums;
+﻿using SampleHierarchies.Data;
+using SampleHierarchies.Enums;
 using SampleHierarchies.Interfaces.Services;
+using SampleHierarchies.Services;
 
 namespace SampleHierarchies.Gui;
 
@@ -20,6 +22,7 @@ public sealed class AnimalsScreen : Screen
     /// </summary>
     private MammalsScreen _mammalsScreen;
 
+    private ISettingsService _settingsService;
     /// <summary>
     /// Ctor.
     /// </summary>
@@ -27,10 +30,12 @@ public sealed class AnimalsScreen : Screen
     /// <param name="animalsScreen">Animals screen</param>
     public AnimalsScreen(
         IDataService dataService,
-        MammalsScreen mammalsScreen)
+        MammalsScreen mammalsScreen,
+        ISettingsService settingsService)
     {
         _dataService = dataService;
         _mammalsScreen = mammalsScreen;
+        _settingsService = settingsService;
     }
 
     #endregion Properties And Ctor
@@ -40,17 +45,78 @@ public sealed class AnimalsScreen : Screen
     /// <inheritdoc/>
     public override void Show()
     {
+        /// <summary>
+        /// Initialization of necessary elements
+        /// </summary>
+        ScreenDefinitionJson = "AnimalsScreenLines.json";
+        ScreenDefinition = ScreenDefinitionService.Load(ScreenDefinitionJson); // information about screens output
+        history.Add("Animals");
+
+
         while (true)
         {
-            Console.WriteLine();
-            Console.WriteLine("Your available choices are:");
-            Console.WriteLine("0. Exit");
-            Console.WriteLine("1. Mammals");
-            Console.WriteLine("2. Save to file");
-            Console.WriteLine("3. Read from file");
-            Console.Write("Please enter your choice: ");
 
-            string? choiceAsString = Console.ReadLine();
+            _settingsService.className = this.GetType().Name; // Get name for current class
+            _settingsService.ApplyColors("settings.json", _settingsService.className);
+
+            /// <summary>
+            /// This part of code used for manipulatin with arrowkeys
+            /// </summary>
+            string? choiceAsString = "";
+            for (int i = 0; i <= 4;)
+            {
+                if (i > 3)
+                {
+                    i = 0;
+                }
+                if (i == -1)
+                {
+                    i = 3;
+                }
+                ShowHistory(history);
+                DisplayLine(1);
+                for (int line = 0; line <= 3; line++)
+                {
+                    if (line == -1)
+                    {
+                        line = 3;
+                    }
+                    if (line > 3)
+                    {
+                        line = 0;
+                    }
+
+                    if (line == i)
+                    {
+                        Console.BackgroundColor = ConsoleColor.DarkBlue;
+                        DisplayLineWOutColor(line + 2);
+                    }
+                    else
+                    {
+                        DisplayLine(line + 2);
+                    }
+                }
+                DisplayLine(6);
+                Console.Write(i);
+                ConsoleKeyInfo keyInfo = Console.ReadKey();
+                if (keyInfo.Key == ConsoleKey.UpArrow)
+                {
+                    Console.Clear();
+                    i--;
+                }
+                else if (keyInfo.Key == ConsoleKey.DownArrow)
+                {
+                    Console.Clear();
+                    i++;
+                }
+                else if (keyInfo.Key == ConsoleKey.Enter)
+                {
+                    Console.Clear();
+                    choiceAsString = i.ToString();
+                    AnimalsScreenChoices choice = (AnimalsScreenChoices)Int32.Parse(choiceAsString);
+                    break;
+                }
+            }
 
             // Validate choice
             try
@@ -64,25 +130,32 @@ public sealed class AnimalsScreen : Screen
                 switch (choice)
                 {
                     case AnimalsScreenChoices.Mammals:
+                        Console.ResetColor();
+                        Console.Clear();
                         _mammalsScreen.Show();
                         break;
 
                     case AnimalsScreenChoices.Read:
+                        Console.Clear();
                         ReadFromFile();
                         break;
 
                     case AnimalsScreenChoices.Save:
+                        Console.Clear();
                         SaveToFile();
                         break;
 
                     case AnimalsScreenChoices.Exit:
-                        Console.WriteLine("Going back to parent menu.");
+                        DisplayLine(7);
+                        history.RemoveAt(history.Count - 1);
+                        Console.ResetColor();
+                        Console.Clear();
                         return;
                 }
             }
             catch
             {
-                Console.WriteLine("Invalid choice. Try again.");
+                DisplayLine(8);
             }
         }
     }
@@ -98,7 +171,7 @@ public sealed class AnimalsScreen : Screen
     {
         try
         {
-            Console.Write("Save data to file: ");
+            DisplayLine(9);
             var fileName = Console.ReadLine();
             if (fileName is null)
             {
@@ -109,7 +182,7 @@ public sealed class AnimalsScreen : Screen
         }
         catch
         {
-            Console.WriteLine("Data saving was not successful.");
+            DisplayLine(10);
         }
     }
 
@@ -120,18 +193,18 @@ public sealed class AnimalsScreen : Screen
     {
         try
         {
-            Console.Write("Read data from file: ");
+            DisplayLine(11); ;
             var fileName = Console.ReadLine();
             if (fileName is null)
             {
                 throw new ArgumentNullException(nameof(fileName));
             }
-            _dataService.Write(fileName);
+            _dataService.Read(fileName); // why there was Write()???
             Console.WriteLine("Data reading from: '{0}' was successful.", fileName);
         }
         catch
         {
-            Console.WriteLine("Data reading from was not successful.");
+            DisplayLine(12); ;
         }
     }
 

@@ -1,0 +1,14 @@
+{
+  "LineEntries": [
+    {
+      "BackgroundColor": 10,
+      "ForegroundColor": 15,
+      "Text": "ScreenEnrty"
+    },
+    {
+      "BackgroundColor": 10,
+      "ForegroundColor": 8,
+      "Text": "Sample Text"
+    }
+  ]
+}

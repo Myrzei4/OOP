@@ -1,0 +1,44 @@
+{
+  "LineEntries": [
+    {
+      "BackgroundColor": 6,
+      "ForegroundColor": 0,
+      "Text": "Your available choices are: "
+    },
+    {
+      "BackgroundColor": 6,
+      "ForegroundColor": 0,
+      "Text": "0. Exit"
+    },
+    {
+      "BackgroundColor": 6,
+      "ForegroundColor": 0,
+      "Text": "1. Change colors"
+    },
+    {
+      "BackgroundColor": 6,
+      "ForegroundColor": 0,
+      "Text": "2. List of screens"
+    },
+    {
+      "BackgroundColor": 6,
+      "ForegroundColor": 0,
+      "Text": "3. List of color" //5
+    },
+    {
+      "BackgroundColor": 6,
+      "ForegroundColor": 0,
+      "Text": "Please enter your choice: "
+    },
+    {
+      "BackgroundColor": 6,
+      "ForegroundColor": 12,
+      "Text": "Invalid choice. Try again." ///7
+    },
+    {
+      "BackgroundColor": 6,
+      "ForegroundColor": 0,
+      "Text": "Going back to parent menu." 
+    }
+  ]
+}

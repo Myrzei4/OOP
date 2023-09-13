@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SampleHierarchies.Enums\SampleHierarchies.Enums.csproj" />
     <ProjectReference Include="..\SampleHierarchies.Interfaces\SampleHierarchies.Interfaces.csproj" />
     <ProjectReference Include="..\SampleHierarchies.Services\SampleHierarchies.Services.csproj" />
   </ItemGroup>

@@ -1,0 +1,124 @@
+{
+  "LineEntries": [
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "Your available choices are: "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "0. Exit"
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "1. List all african elephants"
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "2. Create a new african elephant"
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "3. Delete existing african elephant" //5
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "4. Modify existing african elephant"
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "Please enter your choice: "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "Going back to parent menu." 
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 12,
+      "Text": "Invalid choice. Try again." ///9
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "Here's a list of African Elephants: " //10
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 12,
+      "Text": "The list of african elephants is empty." ///11
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "What is the name of the African elephant you want to delete? "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 12,
+      "Text": "African elephant not found." ///13
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "What is the name of the african elephants you want to edit? "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "African elephant after edit: " //15
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 12,
+      "Text": "African elephant not found." ///16
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 12,
+      "Text": "Invalid input. Try again." ///17
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "What name of the African Elephant? "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "What is the African Elephant's age? "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "How tall is the African Elephant? " //20
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "What is the African Elephant's weight? "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "How long is the African Elephant's Tusk? "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "How long does the African Elephant live? "
+    },
+    {
+      "BackgroundColor": 3,
+      "ForegroundColor": 11,
+      "Text": "What is the African Elephant's social behavior? "
+    }
+  ]
+}

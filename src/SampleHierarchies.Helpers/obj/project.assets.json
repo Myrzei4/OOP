@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Мурзеич\\Source\\Repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj",
+      "projectUniqueName": "C:\\Users\\Мурзеич\\Source\\Repos\\OOP\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj",
       "projectName": "SampleHierarchies.Helpers",
-      "projectPath": "C:\\Users\\Мурзеич\\Source\\Repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj",
+      "projectPath": "C:\\Users\\Мурзеич\\Source\\Repos\\OOP\\src\\SampleHierarchies.Helpers\\SampleHierarchies.Helpers.csproj",
       "packagesPath": "C:\\Users\\Мурзеич\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Мурзеич\\Source\\Repos\\ProgrammingObjectOriented0\\src\\SampleHierarchies.Helpers\\obj\\",
+      "outputPath": "C:\\Users\\Мурзеич\\Source\\Repos\\OOP\\src\\SampleHierarchies.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visualka\\Shared\\NuGetPackages"

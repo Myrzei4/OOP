@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PeanutButter.TinyEventAggregator;
+using SampleHierarchies.Data;
 using SampleHierarchies.Gui;
 using SampleHierarchies.Interfaces.Services;
 using SampleHierarchies.Services;
@@ -54,6 +55,10 @@ internal static class Program
                 services.AddSingleton<DogsScreen, DogsScreen>();
                 services.AddSingleton<AnimalsScreen, AnimalsScreen>();
                 services.AddSingleton<MammalsScreen, MammalsScreen>();
+                services.AddSingleton<PolarBearsScreen, PolarBearsScreen>();
+                services.AddSingleton<AfricanElephantsScreen, AfricanElephantsScreen>();
+                services.AddSingleton<GrizzlyBearsScreen, GrizzlyBearsScreen>();
+                services.AddSingleton<SettingsScreen, SettingsScreen>();
             });
     }
 
